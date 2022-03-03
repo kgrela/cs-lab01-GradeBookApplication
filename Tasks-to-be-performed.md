@@ -74,7 +74,7 @@ __Note:__ This isn't the only way to accomplish implementation, however; this is
 	- [ ] Creating the `StandardGradeBook` class
 		- [ ] Create a class `StandardGradeBook` _(Once this change is made the code will not compile until completion of the next task)_
 			- This should be located in the `GradeBooks` directory.
-			- This should use the `GradeBook.GradeBooks` namespace.
+			- This should use the `GradeBook.GradeBooks` namespace. **---> tutaj powinno użyć GradeBook.Enums, bo pozniej nie ustawisz typu**
 			- This should inherit the `BaseGradeBook` class.
 		- [ ] Create a constructor for `StandardGradeBook`
 			- This should accept a parameter `name` of type `string`.
@@ -84,7 +84,7 @@ __Note:__ This isn't the only way to accomplish implementation, however; this is
 	- [ ] Creating the `RankedGradeBook` class
 		-  [ ] Create a class `RankedGradeBook` _(Once this change is made the code will not compile until completion of the next task)_
 			- This should be located in the `GradeBooks` directory.
-			- This should use the `GradeBook.GradeBooks` namespace.
+			- This should use the `GradeBook.GradeBooks` namespace. **---> tutaj powinno użyć GradeBook.Enums, bo pozniej nie ustawisz typu**
 			- This should inherit the `BaseGradeBook` class.
 		-  [ ] Create a constructor for `RankedGradeBook`
 			- This should accept a parameter `name` of type `string`.
