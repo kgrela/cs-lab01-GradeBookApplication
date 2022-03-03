@@ -268,14 +268,4 @@ namespace GradeBook.GradeBooks
             return JsonConvert.DeserializeObject(json, gradebook);
         }
     }
-
-    public class StandardGradeBook : BaseGradeBook {
-
-        public StandardGradeBook(string name) : base(name)
-        {
-            Name = name;
-            Type = GradeBookType.Standard;
-        }
-
-    }
 }
